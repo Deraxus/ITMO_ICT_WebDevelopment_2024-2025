@@ -21,7 +21,6 @@ def save_data(data):
 def build_html(data):
     rows = ""
     for subject, grades in data.items():
-        # Красивый вывод: 5, 4, 3 вместо ['5', '4', '3']
         pretty_grades = ", ".join(grades)
         rows += f"<tr><td>{subject}</td><td>{pretty_grades}</td></tr>"
 
