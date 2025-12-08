@@ -1,0 +1,6 @@
+site_name: Лабораторные работы по Web
+
+nav:
+  - Главная: index.md
+  - Лабораторная работа 1: laboratory_work_1.md
+  - Лабораторная работа 2: laboratory_work_2.md
