@@ -1,11 +1,21 @@
 from rest_framework import serializers
 from .models import Category, Task, Tag
+from djoser.serializers import UserSerializer as DjoserUserSerializer
 
 
 class TagSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tag
-        fields = "__all__"
+        fields = ["id", "name"]
+        extra_kwargs = {
+            "name": {"required": True, "allow_blank": False},
+        }
+
+
+class UserSerializer(DjoserUserSerializer):
+    class Meta(DjoserUserSerializer.Meta):
+        fields = ("id", "username", "email")
+        read_only_fields = ("id",)
 
 
 class CategorySerializer(serializers.ModelSerializer):
