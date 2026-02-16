@@ -1,11 +1,11 @@
-name: Deploy Katkov_Aleksei docs
+name: Deploy Katkov_Aleksei docs to gh-pages
 
 on:
   push:
     branches: [ "main" ]
     paths:
       - "students/k3339/Katkov_Aleksei/**"
-      - ".github/workflows/docs-katkov.yml"
+      - ".github/workflows/deploy-katkov-docs.yml"
 
 permissions:
   contents: write
@@ -26,7 +26,7 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
-      - name: Build docs
+      - name: Build MkDocs (Katkov_Aleksei)
         working-directory: students/k3339/Katkov_Aleksei
         run: mkdocs build
 
