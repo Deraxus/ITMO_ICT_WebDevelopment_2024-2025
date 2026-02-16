@@ -8,3 +8,6 @@
 - [Лабораторная работа 2](laboratory_work_2/)
 - [Лабораторная работа 3](laboratory_work_3/)
 - [Лабораторная работа 4](laboratory_work_4/)
+
+
+<!-- rebuild -->
