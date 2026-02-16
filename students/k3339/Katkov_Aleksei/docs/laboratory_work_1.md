@@ -24,6 +24,10 @@
 Файлы:
 - `task1_udp_server.py`
 - `task1_udp_client.py`
+Демонстрация работы:
+- ![img.png](img.png)
+- ![img_1.png](img_1.png)
+- ![img_2.png](img_2.png)
 
 Результат работы:
 - сообщение отображается на стороне сервера;
@@ -47,6 +51,11 @@ c = sqrt(a² + b²)
 - `task2_tcp_pifagor_server.py`
 - `task2_tcp_pifagor_client.py`
 
+Демонстрация работы:
+- ![img_4.png](img_4.png)
+- ![img_5.png](img_5.png)
+- ![img_6.png](img_6.png)
+
 ---
 
 ### Задание 3. HTTP-сервер, отдающий index.html
@@ -56,6 +65,10 @@ c = sqrt(a² + b²)
 Файлы:
 - `task3_http_server.py`
 - `index.html`
+
+Демонстрация работы:
+- ![img_7.png](img_7.png)
+- ![img_8.png](img_8.png)
 
 При обращении к `http://127.0.0.1:8080` в браузере отображается HTML-страница.
 
@@ -79,6 +92,9 @@ c = sqrt(a² + b²)
 - `task4_chat_server.py`
 - `task4_chat_client.py`
 
+Демонстрация работы:
+- ![img_9.png](img_9.png)
+
 ---
 
 ### Задание 5. HTTP-сервер для хранения оценок
@@ -93,6 +109,9 @@ c = sqrt(a² + b²)
 Файлы:
 - `task5_http_grades_server.py`
 - `grades.json`
+
+Демонстрация работы:
+- ![img_10.png](img_10.png)
 
 ---
 
